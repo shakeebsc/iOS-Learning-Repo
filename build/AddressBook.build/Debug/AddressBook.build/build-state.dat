@@ -1,0 +1,87 @@
+TAddressBook
+v7
+r1
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib
+c000000004A7473440000000000002D92
+t1249145668
+s11666
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib
+c000000004A37F8FE0000000000001DB5
+t1245182206
+s7605
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib
+c000000004A42895C0000000000002D27
+t1245874524
+s11559
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib
+c000000004A897A800000000000002BEA
+t1250523776
+s11242
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib
+c000000004A36A9BA0000000000001CAD
+t1245096378
+s7341
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Info.plist
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Resources/AddViewController.nib
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Resources/ContactViewController.nib
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Resources/EditableCell.nib
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+NInfo.plist
+c000000004A42710A0000000000000381
+t1245868298
+s897
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib
+r0
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib
+r0
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib
+r0
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib
+r0
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app/Contents/Info.plist Info.plist
+r0
+
+CTouch /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug/AddressBook.app
+r0
+

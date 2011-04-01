@@ -1,0 +1,167 @@
+
+// AddViewController.m
+// Controls a view for adding a new contact.
+#import "AddViewController.h"
+
+@implementation AddViewController
+@synthesize delegate;
+
+// initialize the AddViewController
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:
+   (NSBundle *)nibBundleOrNil
+{
+   // if the superclass initialized properly
+   if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])
+   {
+      // create the names of the fields
+      fields = [[NSArray alloc] initWithObjects:@"Name", @"Email",
+         @"Phone", @"Street", @"City/State/Zip", nil];
+
+      // initialize the data NSMutableDictionary
+      data = [[NSMutableDictionary alloc] initWithCapacity:fields.count];
+      keyboardShown = NO; // hide the keyboard
+   } // end if
+   
+   return self; // return this AddViewController
+} // end method initWithNibName:bundle:
+
+// alert RootViewController that the "Done" Button was touched
+- (IBAction)doneAdding:sender
+{
+   // return to the RootView
+   [delegate addViewControllerDidFinishAdding:self]; 
+} // end method doneAdding:
+
+// returns a dictionary containing all the supplied contact information
+- (NSDictionary *)values
+{
+   // if the user did not supply a name
+   if ([data valueForKey:@"Name"] == nil)
+      return nil; // return nil
+   
+   // returns a copy of the data NSDictionary
+   return [NSDictionary dictionaryWithDictionary:data];
+} // end method values
+
+// clear table’s cells
+- (void)clearFields
+{
+   [data removeAllObjects]; // remove all of the stored keys and values
+   
+   // loop through the fields
+   for (int i = 0; i < fields.count; i++) 
+   {
+      // get the index path for the given row
+      NSIndexPath *path = [NSIndexPath indexPathForRow:i inSection:0];
+      
+      // get the cell at the index path
+      EditableCell *cell =
+         (EditableCell *)[table cellForRowAtIndexPath:path];
+      [cell clearText]; // clear all the text in the cell
+   } // end for
+} // end method clearFields
+
+
+// called when the user begins editing a cell
+- (void)editableCellDidBeginEditing:(EditableCell *)cell
+{
+   // if the keyboard is hidden
+   if (!keyboardShown)
+   {
+      // animate resizing the table to fit the keyboard
+      [UIView beginAnimations:nil context:NULL]; // begin animation block
+      [UIView setAnimationDuration:0.25]; // set the animation duration
+      [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+      CGRect frame = table.frame; // get the frame of the table
+      frame.size.height -= KEYBOARD_HEIGHT; // subtract from the height
+      [table setFrame:frame]; // apply the new frame
+      [UIView commitAnimations]; // end animation block
+   } // end if
+   
+   keyboardShown = YES; // the keyboard appears on the screen
+   
+   // get the index path for the selected cell
+   NSIndexPath *path = [table indexPathForCell:cell];
+   
+   // scroll the table so that the selected cell is at the top
+   [table scrollToRowAtIndexPath:path atScrollPosition:
+      UITableViewScrollPositionTop animated:YES];
+} // end method cellBeganEditing:
+
+// called when the user stops editing a cell or selects another cell
+- (void)editableCellDidEndEditing:(EditableCell *)cell
+{
+   // add the new entered data
+   [data setValue:cell.textField.text forKey:cell.label.text];
+} // end method editableCellDidEndEditing:
+
+// called when the user touches the Done button on the keyboard
+- (void)editableCellDidEndOnExit:(EditableCell *)cell
+{
+   
+   // resize the table to fit the keyboard
+   CGRect frame = table.frame; // get the frame of the table
+   frame.size.height += KEYBOARD_HEIGHT; // subtract from the height
+   [table setFrame:frame]; // apply the new frame
+   
+   keyboardShown = NO; // hide the keyboard
+} // end method editableCellDidEndOnExit:
+
+// returns the number of sections in table
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+   return 2; // the number of sections in the table
+} // end method numberOfSectionsInTableView:
+
+// returns the number of rows in the given table section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:
+   (NSInteger)section
+{
+   // if it’s the first section
+   if (section == 0)
+      return 3; // there are three rows in the first section
+   else
+      return fields.count - 3; // all other rows are in the second section
+} // end method tableView:numberOfRowsInSection:
+
+// returns the title for the given section
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:
+   (NSInteger)section
+{
+   // if it’s the second section
+   if (section == 1) // return the title
+      return @"Address";
+   else // none of the other sections have titles
+      return nil; // return nil
+} // end method tableView:titleForHeaderInSection:
+
+// returns the number of sections in table
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+   return 2; // the number of sections in the table
+} // end method numberOfSectionsInTableView:
+
+// returns the number of rows in the given table section
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:
+   (NSInteger)section
+{
+   // if it’s the first section
+   if (section == 0)
+      return 3; // there are three rows in the first section
+   else
+      return fields.count - 3; // all other rows are in the second section
+} // end method tableView:numberOfRowsInSection:
+
+// returns the title for the given section
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:
+   (NSInteger)section
+{
+   // if it’s the second section
+   if (section == 1) // return the title
+      return @"Address";
+   else // none of the other sections have titles
+      return nil; // return nil
+} // end method tableView:titleForHeaderInSection:
+
+
+

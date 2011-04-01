@@ -1,0 +1,564 @@
+TAddressBook
+v7
+r0
+t291660580.368062
+cCheck dependencies
+cProcessInfoPlistFile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/Info.plist Info.plist
+cCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib
+cCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib
+cCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib
+cCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib
+cCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib
+cProcessPCH /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch.gch AddressBook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/main.o /Users/pauldeitel/Documents/Examples/AddressBook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBookAppDelegate.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddViewController.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/EditableCell.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/ContactViewController.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/RootViewController.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook normal i386
+cGenerateDSYMFile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app.dSYM /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook
+cTouch /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A42E5F300000000000000EE
+t1245898227
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib
+c000000004A7473440000000000002D92
+t1249145668
+s11666
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch
+c000000004A36A9BA00000000000000B9
+t1245096378
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.h
+c000000004BB21B020000000000000C0B
+t1269963522
+s3083
+i<UIKit/UIKit.h>
+i"EditableCell.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m
+c000000004BB21B0400000000000023FD
+t1269963524
+s9213
+i"AddViewController.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.h
+c000000004A65BF1800000000000001F5
+t1248182040
+s501
+i<UIKit/UIKit.h>
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m
+c000000004A65BF180000000000000339
+t1248182040
+s825
+i"AddressBookAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.h
+c000000004BB21B050000000000000874
+t1269963525
+s2164
+i<UIKit/UIKit.h>
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m
+c000000004BB21B06000000000000100A
+t1269963526
+s4106
+i"ContactViewController.h"
+i"EditableCell.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.h
+c000000004BB21B000000000000000B95
+t1269963520
+s2965
+i<UIKit/UIKit.h>
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m
+c000000004BB21AFE0000000000001383
+t1269963518
+s4995
+i"EditableCell.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.h
+c000000004BB21B0800000000000009A1
+t1269963528
+s2465
+i<UIKit/UIKit.h>
+i"AddViewController.h"
+i"ContactViewController.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m
+c000000004BB22BDC000000000000219F
+t1269967836
+s8607
+i"RootViewController.h"
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib
+c000000004A37F8FE0000000000001DB5
+t1245182206
+s7605
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib
+c000000004A42895C0000000000002D27
+t1245874524
+s11559
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib
+c000000004A897A800000000000002BEA
+t1250523776
+s11242
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib
+c000000004A36A9BA0000000000001CAD
+t1245096378
+s7341
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddViewController.o
+t1269965676
+s45456
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBook.LinkFileList
+c000000004BB2236A000000000000038E
+t1269965674
+s910
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBookAppDelegate.o
+t1269965676
+s40880
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/ContactViewController.o
+t1269965676
+s35828
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/EditableCell.o
+t1269965676
+s26260
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/RootViewController.o
+t1269967780
+s42700
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/main.o
+t1269965676
+s5968
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/AddViewController.plist
+t1269965715
+s275
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/AddressBookAppDelegate.plist
+t1269965715
+s275
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/ContactViewController.plist
+t1269965715
+s275
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/EditableCell.plist
+t1269965715
+s275
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/RootViewController.plist
+t1269965715
+s275
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/main.plist
+t1269965715
+s275
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app
+t1269967780
+s340
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app.dSYM
+t1269967780
+s102
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddViewController.nib
+t1269965675
+s2366
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook
+t1269967780
+s36884
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/ContactViewController.nib
+t1269965675
+s1709
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/EditableCell.nib
+t1269965675
+s3224
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/Info.plist
+t1269965674
+s604
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/MainWindow.nib
+t1269965675
+s2028
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/PkgInfo
+t1269965674
+s8
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/RootViewController.nib
+t1269965675
+s1517
+
+N/Users/pauldeitel/Documents/Examples/AddressBook/main.m
+c000000004A36A9BA0000000000000162
+t1245096378
+s354
+i<UIKit/UIKit.h>
+
+N/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch.pth
+t1269960984
+s1729312
+
+N/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch.gch
+t1269965676
+s13026768
+
+N/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bmquqekhyumhyqfpthhivgrguwkt/AddressBook_Prefix.pch.pth
+t1269880691
+s1700640
+
+N/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-cjrepaqwlcrejnauheqyvigsxqwd/AddressBook_Prefix.pch.gch
+t1269880663
+s12952976
+
+NInfo.plist
+c000000004A42710A0000000000000381
+t1245868298
+s897
+
+CAnalyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m
+s291658515.252076
+e291658515.284420
+r1
+xAnalyze
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m
+lSLF07#2@84"Analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m291658515#291658515#0(0"0(0#0#76"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m4300911832#2092"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch --analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/AddViewController.plist0#
+
+CAnalyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m
+s291658515.197996
+e291658515.279080
+r1
+xAnalyze
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m
+lSLF07#2@89"Analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m291658515#291658515#0(0"0(0#0#81"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m4300911832#2102"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch --analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/AddressBookAppDelegate.plist0#
+
+CAnalyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m
+s291658515.284505
+e291658515.317941
+r1
+xAnalyze
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m
+lSLF07#2@88"Analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m291658515#291658515#0(0"0(0#0#80"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m4300911832#2100"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch --analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/ContactViewController.plist0#
+
+CAnalyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m
+s291658515.279167
+e291658515.305450
+r1
+xAnalyze
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m
+lSLF07#2@79"Analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m291658515#291658515#0(0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m4300911832#2082"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch --analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/EditableCell.plist0#
+
+CAnalyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m
+s291658515.305808
+e291658515.336687
+r1
+xAnalyze
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m
+lSLF07#2@85"Analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m291658515#291658515#0(0"0(0#0#77"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m4300911832#2094"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch --analyze /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/RootViewController.plist0#
+
+CAnalyze /Users/pauldeitel/Documents/Examples/AddressBook/main.m
+s291658515.196628
+e291658515.251980
+r1
+xAnalyze
+x/Users/pauldeitel/Documents/Examples/AddressBook/main.m
+lSLF07#2@63"Analyze /Users/pauldeitel/Documents/Examples/AddressBook/main.m291658515#291658515#0(0"0(0#0#55"/Users/pauldeitel/Documents/Examples/AddressBook/main.m4300911832#2058"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch --analyze /Users/pauldeitel/Documents/Examples/AddressBook/main.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291660580#291660580#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddViewController.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291658476.627059
+e291658476.704913
+r1
+xCompileC
+xbuild/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddViewController.o
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m291658476#291658476#0(0"0(0#0#76"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m4300911832#2083"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch -c /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddViewController.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddViewController.o0#
+
+CCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBookAppDelegate.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291658476.582091
+e291658476.648048
+r1
+xCompileC
+xbuild/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBookAppDelegate.o
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m291658476#291658476#0(0"0(0#0#81"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m4300911832#2093"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch -c /Users/pauldeitel/Documents/Examples/AddressBook/Classes/AddressBookAppDelegate.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBookAppDelegate.o0#
+
+CCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/ContactViewController.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291658476.705146
+e291658476.770524
+r1
+xCompileC
+xbuild/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/ContactViewController.o
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m291658476#291658476#0(0"0(0#0#80"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m4300911832#2091"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch -c /Users/pauldeitel/Documents/Examples/AddressBook/Classes/ContactViewController.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/ContactViewController.o0#
+
+CCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/EditableCell.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291658476.648145
+e291658476.705070
+r1
+xCompileC
+xbuild/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/EditableCell.o
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m291658476#291658476#0(0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m4300911832#2073"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch -c /Users/pauldeitel/Documents/Examples/AddressBook/Classes/EditableCell.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/EditableCell.o0#
+
+CCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/RootViewController.o /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291660580.189907
+e291660580.331408
+r1
+xCompileC
+xbuild/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/RootViewController.o
+x/Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m291660580#291660580#0(0"0(0#0#77"/Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m4300911832#2085"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch -c /Users/pauldeitel/Documents/Examples/AddressBook/Classes/RootViewController.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/main.o /Users/pauldeitel/Documents/Examples/AddressBook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291658476.580730
+e291658476.626964
+r1
+xCompileC
+xbuild/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/main.o
+x/Users/pauldeitel/Documents/Examples/AddressBook/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/pauldeitel/Documents/Examples/AddressBook/main.m291658476#291658476#0(0"0(0#0#55"/Users/pauldeitel/Documents/Examples/AddressBook/main.m4300911832#2049"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -include /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch -c /Users/pauldeitel/Documents/Examples/AddressBook/main.m -o /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib
+s291658475.218134
+e291658475.501685
+r1
+xCompileXIB
+x/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib:9: warning: Setting a UIScrollView's minimum or maximum zoom to anything other than 1.0 will be ignored on iPhone OS versions prior to 2.1.
+o/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib:9: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.
+lSLF07#2@32"CompileXIB AddViewController.xib291658475#291658475#0(423"/* com.apple.ibtool.document.warnings *//Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib:9: warning: Setting a UIScrollView's minimum or maximum zoom to anything other than 1.0 will be ignored on iPhone OS versions prior to 2.1./Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib:9: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.2(22@127"Setting a UIScrollView's minimum or maximum zoom to anything other than 1.0 will be ignored on iPhone OS versions prior to 2.1.291658475#18446744073709551615#0#0(6@70"/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib270838468#9#0#9#0#0"0(22@87"UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.291658475#18446744073709551615#0#0(6@70"/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib270838468#9#0#9#0#0"0(0#0#70"/Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib4300911832#530"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddViewController.nib /Users/pauldeitel/Documents/Examples/AddressBook/AddViewController.xib0#
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib
+s291658475.501768
+e291658475.736711
+r1
+xCompileXIB
+x/Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib:4: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.
+lSLF07#2@36"CompileXIB ContactViewController.xib291658475#291658475#0(216"/* com.apple.ibtool.document.warnings *//Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib:4: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.1(22@87"UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.291658475#18446744073709551615#0#0(6@74"/Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib266875006#4#0#4#0#0"0(0#0#74"/Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib4300911832#538"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/ContactViewController.nib /Users/pauldeitel/Documents/Examples/AddressBook/ContactViewController.xib0#
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib
+s291658475.227191
+e291658475.506837
+r1
+xCompileXIB
+x/Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib
+lSLF07#2@27"CompileXIB EditableCell.xib291658475#291658475#0(0"0(0#0#65"/Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib4300911832#520"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/EditableCell.nib /Users/pauldeitel/Documents/Examples/AddressBook/EditableCell.xib0#
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib
+s291658474.849996
+e291658475.226543
+r1
+xCompileXIB
+x/Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib291658474#291658475#0(0"0(0#0#63"/Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib4300911832#516"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/MainWindow.nib /Users/pauldeitel/Documents/Examples/AddressBook/MainWindow.xib0#
+
+CCompileXIB /Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib
+s291658474.850639
+e291658475.218056
+r1
+xCompileXIB
+x/Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib:3: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.
+lSLF07#2@33"CompileXIB RootViewController.xib291658474#291658475#0(213"/* com.apple.ibtool.document.warnings *//Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib:3: warning: UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.1(22@87"UIScrollView's 'Bounce Zoom' option will be ignored on iPhone OS versions prior to 2.1.291658475#18446744073709551615#0#0(6@71"/Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib266789178#3#0#3#0#0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib4300911832#532"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/RootViewController.nib /Users/pauldeitel/Documents/Examples/AddressBook/RootViewController.xib0#
+
+CGenerateDSYMFile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app.dSYM /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook
+s291660580.349729
+e291660580.365810
+r1
+xGenerateDSYMFile
+x/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app.dSYM
+x/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/AddressBook.app.dSYM build/Debug-iphonesimulator/AddressBook.app/AddressBook291660580#291660580#0(0"0(0#0#104"/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook4300911832#425"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook -o /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app.dSYM0#
+
+CLd /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook normal i386
+s291660580.331493
+e291660580.349651
+r1
+xLd
+x/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook
+xnormal
+xi386
+lSLF07#2@109"Link /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook291660580#291660580#0(0"0(0#0#0"4300911832#934"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -filelist /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/Objects-normal/i386/AddressBook.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/AddressBook0#
+
+CProcessInfoPlistFile /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/Info.plist Info.plist
+s291658474.825932
+e291658474.849922
+r1
+xProcessInfoPlistFile
+x/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist291658474#291658474#0(0"0(0#0#59"/Users/pauldeitel/Documents/Examples/AddressBook/Info.plist4300911832#509"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app/Info.plist0#
+
+CProcessPCH /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch.pth AddressBook_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s291653784.131328
+e291653784.522912
+r1
+xProcessPCH
+x/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch.pth
+xAddressBook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@33"Precompile AddressBook_Prefix.pch291653784#291653784#0(0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch4300911832#1918"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -c /Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch -o /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-avsjhvhdcodynuajkdqfqabazbep/AddressBook_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch.gch AddressBook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291658475.736812
+e291658476.580459
+r1
+xProcessPCH
+x/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch.gch
+xAddressBook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile AddressBook_Prefix.pch291658475#291658476#0(0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch4300911832#1927"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -c /Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch -o /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bdbcwvcxaciqiybyehpppyoupsfb/AddressBook_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bmquqekhyumhyqfpthhivgrguwkt/AddressBook_Prefix.pch.pth AddressBook_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s291573490.820633
+e291573491.120003
+r1
+xProcessPCH
+x/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bmquqekhyumhyqfpthhivgrguwkt/AddressBook_Prefix.pch.pth
+xAddressBook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@33"Precompile AddressBook_Prefix.pch291573490#291573491#0(0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch4300911832#1916"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -c /Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch -o /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-bmquqekhyumhyqfpthhivgrguwkt/AddressBook_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-cjrepaqwlcrejnauheqyvigsxqwd/AddressBook_Prefix.pch.gch AddressBook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291573462.629643
+e291573463.558358
+r1
+xProcessPCH
+x/var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-cjrepaqwlcrejnauheqyvigsxqwd/AddressBook_Prefix.pch.gch
+xAddressBook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile AddressBook_Prefix.pch291573462#291573463#0(0"0(0#0#71"/Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch4300911832#1925"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-generated-files.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-own-target-headers.hmap -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-all-target-headers.hmap -iquote /Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/AddressBook-project-headers.hmap -F/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator -I/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/include -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources/i386 -I/Users/pauldeitel/Documents/Examples/AddressBook/build/AddressBook.build/Debug-iphonesimulator/AddressBook.build/DerivedSources -c /Users/pauldeitel/Documents/Examples/AddressBook/AddressBook_Prefix.pch -o /var/folders/R0/R09AtzqzH2i7I17NmdP8OU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AddressBook_Prefix-cjrepaqwlcrejnauheqyvigsxqwd/AddressBook_Prefix.pch.gch0#
+
+CTouch /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app
+s291660580.365890
+e291660580.368034
+r1
+xTouch
+x/Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app
+lSLF07#2@98"Touch /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app291660580#291660580#0(0"0(0#0#0"4300911832#302"    cd /Users/pauldeitel/Documents/Examples/AddressBook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pauldeitel/Documents/Examples/AddressBook/build/Debug-iphonesimulator/AddressBook.app0#
+
